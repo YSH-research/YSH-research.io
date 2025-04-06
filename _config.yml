@@ -114,7 +114,7 @@ analytics:
 
 # Site Author
 author:
-  name: "Your Name"
+  name: "Soo-Han Yoon"
   avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio: "I am an **amazing** person."
   location: "Somewhere"
@@ -122,22 +122,34 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:your.name@email.com"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      # url: "https://linkedin.com/in/your-name"
     - label: "Website"
-      icon: "fas fa-fw fa-link"
+      icon: ""
       # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+    - label: "X (Twitter)"
+      icon: "fab fa-fw fa-x-twitter-square"
       # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      icon: "y"
       # url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+    - label: "Docker Hub"
+      icon: "fab fa-fw fa-docker"
+      # url: "https://hub.docker.com/u/your-name"
+    - label: "Discord"
+      icon: "fab fa-fw fa-discord"
+      # url: "https://discordapp.com/users/your-name"
+    - label: "Slack"
+      icon: "fab fa-fw fa-slack"
+      # url: "https://gitlab.com/your-name"
 
 # Site Footer
 footer:
