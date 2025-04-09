@@ -8,7 +8,7 @@ permalink: /competition/robotracing
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
 
-<a href="/competition/robotracing/clothoidrdiary/" style="text-align: center;">
+<a href="/competition/robotracing/diary/" style="text-align: center;">
   <img src="/assets/images/Diary.webp" alt="Robot Racing Diary" width="200">
   <br>Robot Racing – Diary 2025 ~
 </a>
