@@ -1,36 +1,19 @@
 ---
 title: "🏁 Competitions"
-permalink: /competition/robotracing/entries/
+layout: single
+permalink: /competition/robotracing/competitions/
 parent: "Robot Racing"
 has_children: true
-layout: single
 nav_order: 2
 ---
-> 연도별 주요 대회 기록입니다.
-<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
-<!-- <a href="/competition/robotracing/robotracing-2025-may/" style="text-align: center;">
-  <img src="/assets/images/competition/robotracing/main.jpg" alt="Robot Racing 2025 May" width="200">
-  <br>2025 May – Robot Racing
-</a> -->
 
-<a href="/competition/robotracing/robotracing-2024-nov/" style="text-align: center;">
-  <img src="/assets/images/competition/robotracing/2024-3.jpeg" alt="Robot Racing 2024 November" width="200">
-  <br>2024 Nov – Robot Racing
-</a>
+# 연도별 대회 목록
 
-<a href="/competition/robotracing/robotracing-2024-aug/" style="text-align: center;">
-  <img src="/assets/images/competition/robotracing/2024-2.jpeg" alt="Robot Racing 2024 August" width="200">
-  <br>2024 Aug – Robot Racing
-</a>
+아래는 Robot Racing 대회 기록들을 모아둔 페이지입니다.
 
-<a href="/competition/robotracing/robotracing-2024-april/" style="text-align: center;">
-  <img src="/assets/images/competition/robotracing/2024-1.jpeg" alt="Robot Racing 2024 April" width="200">
-  <br>2024 April – Robot Racing
-</a>
+- [2025 May – Robot Racing](/competition/robotracing/competitions/2025-may/)
+- [2024 Nov – Robot Racing](/competition/robotracing/competitions/2024-nov/)
+- [2024 Aug – Robot Racing](/competition/robotracing/competitions/2024-aug/)
+- [2024 April – Robot Racing](/competition/robotracing/competitions/2024-april/)
+- [2023 July – Robot Racing](/competition/robotracing/competitions/2023-july/)
 
-<a href="/competition/robotracing/robotracing-2023-july/" style="text-align: center;">
-  <img src="/assets/images/competition/robotracing/2023-2.jpeg" alt="Robot Racing 2023 July" width="200">
-  <br>2023 July – Robot Racing
-</a>
-
-</div>

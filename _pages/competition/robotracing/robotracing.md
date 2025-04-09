@@ -21,6 +21,5 @@ nav_order: 1
   <br>Robot Racing – Technical Report
 </a>
 
-
 </div>
 
