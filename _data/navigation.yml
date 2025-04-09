@@ -1,4 +1,3 @@
-# main links
 main:
   - title: "Competition"
     url: /competition/
@@ -6,17 +5,17 @@ main:
       - title: "Robot Racing"
         url: /competition/robotracing/
         children:
-          - title: "Technical Report"
+          - title: "Robot Racing – Technical Report"
             url: /competition/robotracing/technical/
-          - title: "Diary"
+          - title: "Robot Racing – Diary"
             url: /competition/robotracing/diary/
-          - title: "2024 November"
-            url: /competition/robotracing/robotracing-2024-nov/
-          - title: "2024 August"
-            url: /competition/robotracing/robotracing-2024-aug/
-          - title: "2024 April"
-            url: /competition/robotracing/robotracing-2024-april/
-          - title: "2023 July"
-            url: /competition/robotracing/robotracing-2023-july/
-          - title: "2025 May"
+          - title: "Robot Racing – 2025 May"
             url: /competition/robotracing/robotracing-2025-may/
+          - title: "Robot Racing – 2024 November"
+            url: /competition/robotracing/robotracing-2024-nov/
+          - title: "Robot Racing – 2024 August"
+            url: /competition/robotracing/robotracing-2024-aug/
+          - title: "Robot Racing – 2024 April"
+            url: /competition/robotracing/robotracing-2024-april/
+          - title: "Robot Racing – 2023 July"
+            url: /competition/robotracing/robotracing-2023-july/
