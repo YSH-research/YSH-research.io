@@ -1,5 +1,5 @@
 ---
-title: "RobotRacing"
+title: "Robot Racing"
 layout: single
 permalink: /competition/robotracing
 ---
