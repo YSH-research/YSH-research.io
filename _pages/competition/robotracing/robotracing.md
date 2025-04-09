@@ -1,7 +1,7 @@
 ---
 title: "Robot Racing"
 layout: single
-permalink: /competition/robotracing
+permalink: /competition/robotracing/
 ---
 
 ## 🏆 Major Competitions
