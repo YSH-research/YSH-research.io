@@ -12,8 +12,8 @@ permalink: /competition/robotracing
   <img src="/assets/images/Diary.webp" alt="Robot Racing Diary" width="200">
   <br>Robot Racing – Diary 2025 ~
 </a>
-ㅇ
-<a href="/competition/robotracing/robotracing-2025-may/" style="text-align: center;">
+
+<a href="/competition/robotracing/technical/" style="text-align: center;">
   <img src="/assets/images/Gear.jpeg" alt="Robot Racing Technical Report" width="200">
   <br>Robot Racing – Technical Report
 </a>
