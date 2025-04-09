@@ -2,6 +2,9 @@
 title: "Robot Racing"
 layout: single
 permalink: /competition/robotracing/
+parent: "Competition"
+has_children: true  
+nav_order: 1  
 ---
 
 ## 🏆 Major Competitions

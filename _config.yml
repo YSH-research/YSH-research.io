@@ -333,3 +333,14 @@ collections:
   pages:
     output: true
     permalink: /:path/
+
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      toc: true
+      sidebar:
+        nav: "main"
