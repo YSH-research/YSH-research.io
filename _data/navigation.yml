@@ -1,11 +1,7 @@
 # main links
 main:
-  - title: "Test Home"
-    url: /test-home/
-  - title: "Test Single"
-    url: /test-single/
-  - title: "Test Splash"
-    url: /test-splash/
+  - title: "Competition"
+    url: /competition/
 
 
 
