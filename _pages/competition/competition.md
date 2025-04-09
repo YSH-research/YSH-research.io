@@ -9,7 +9,7 @@ has_children: true
 
 <section style="padding: 10px 0;">
   <a href="/competition/robotracing/" style="text-align: center; max-width: 220px;">
-  <img src="/assets/images/competition/autonomous.jpg" alt="Robot Racing Competition" width="200">
+  <img src="/assets/images/competition/robotracing/Clothoid.jpg" alt="Robot Racing Competition" width="200">
   <div style="font-weight: bold; margin-top: 5px;">Robot Racing Competition</div>
   <div style="font-size: 0.9em; color: gray;">
     Participated as a control engineer in 2024
