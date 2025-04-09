@@ -2,6 +2,21 @@
 main:
   - title: "Competition"
     url: /competition/
-
-
-
+    children:
+      - title: "Robot Racing"
+        url: /competition/robotracing/
+        children:
+          - title: "Technical Report"
+            url: /competition/robotracing/technical/
+          - title: "Diary"
+            url: /competition/robotracing/diary/
+          - title: "2024 November"
+            url: /competition/robotracing/robotracing-2024-nov/
+          - title: "2024 August"
+            url: /competition/robotracing/robotracing-2024-aug/
+          - title: "2024 April"
+            url: /competition/robotracing/robotracing-2024-april/
+          - title: "2023 July"
+            url: /competition/robotracing/robotracing-2023-july/
+          - title: "2025 May"
+            url: /competition/robotracing/robotracing-2025-may/
