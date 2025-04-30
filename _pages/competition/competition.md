@@ -7,8 +7,8 @@ has_children: true
 
 ##  🏁Robot Racing Competition - Clothoid-R
 
-[👉 Robot Racing Competition (2024 Clothoid-R)](/competition/robotracing/)  
-Participated as a control engineer in 2024
+<a href="/competition/robotracing/">Robot Racing</a>
+
 
 ## 🏆 Awards
 
