@@ -1,5 +1,5 @@
 ---
-title: "Robot Racing-test"
+title: "Robot Racing"
 layout: single
 permalink: /competition/robotracing/
 has_children: true
