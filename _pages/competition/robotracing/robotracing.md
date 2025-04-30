@@ -5,12 +5,12 @@ permalink: /competition/robotracing/
 has_children: true
 parent: "Competition"
 ---
-
+<!-- 
 ## 🏆 Major Competitions
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
 
-<!-- <a href="/competition/robotracing/diary/" style="text-align: center;">
+<a href="/competition/robotracing/diary/" style="text-align: center;">
   <img src="/assets/images/Diary.webp" alt="Robot Racing Diary" width="200">
   <br>Robot Racing – Diary 2025 ~
 </a>
@@ -43,7 +43,7 @@ parent: "Competition"
 <a href="/competition/robotracing/robotracing-2023-july/" style="text-align: center;">
   <img src="/assets/images/competition/robotracing/2023-2.jpeg" alt="Robot Racing 2023 July" width="200">
   <br>2023 July – Robot Racing
-</a> -->
+</a>
 
-</div>
+</div> -->
 
