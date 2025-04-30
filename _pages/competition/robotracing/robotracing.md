@@ -5,6 +5,9 @@ permalink: /competition/robotracing/
 has_children: true
 parent: "Competition"
 ---
+
+## Welcome to the Robot Racing Page 🚗
+
 <!-- 
 ## 🏆 Major Competitions
 
