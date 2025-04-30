@@ -316,20 +316,12 @@ compress_html:
     envs: development
 
 # Defaults
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: # true
-      share: true
-      related: true
+collections:
+  pages:
+    output: true
+    permalink: /:path/
 
-  # _pages
+defaults:
   - scope:
       path: ""
       type: pages
@@ -338,8 +330,3 @@ defaults:
       toc: true
       sidebar:
         nav: "main"
-
-collections:
-  pages:
-    output: true
-    permalink: /:path/
