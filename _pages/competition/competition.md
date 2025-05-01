@@ -3,10 +3,6 @@ title: "Competition"
 layout: single
 permalink: /competition/
 has_children: true
-show_date: false      # ⛔ 날짜 없앰
-show_pager: false     # ⛔ 이전/다음 링크 없앰
-read_time: false      # ⛔ 읽는 시간 없앰 (옵션)
-comments: false       # ⛔ 댓글 없앰 (옵션)
 ---
 
 ## 🏆 Awards
@@ -31,7 +27,7 @@ comments: false       # ⛔ 댓글 없앰 (옵션)
   <div style="font-weight: bold; margin: 0px 0 0 0; line-height: 1;">Robot Racing Competition</div>
   <div style="font-size: 0.6em; color: gray; margin: 0; line-height: 1;">Participated as a control engineer in 2024</div>
 
-
+.
 
 
 <!-- 
