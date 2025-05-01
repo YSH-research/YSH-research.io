@@ -52,11 +52,6 @@ $base0f: #b18a3d !default;
   color: inherit;
 }
 
-.page {
-  max-width: 1800px !important; // 기존보다 넓게
-  margin: 0 auto;
-  padding: 0 2rem;
-}
 
 /* 📌 4. 이미지 설명 텍스트 작게 (클래스 활용 권장) */
 .image-caption {
@@ -103,12 +98,34 @@ $base0f: #b18a3d !default;
 
 /* "On this page" 제목 박스(header) 스타일 */
 .toc__menu-header {
-  background-color: #ffffff !important; // 흰 배경
-  color: #000000 !important; // 검정 글씨
+  background-color: #ffffff !important; // 배경 흰색
+  color: #000000 !important; // 글자색 검정
+  font-size: 0.8rem !important; // 글자 작게
   font-weight: bold;
+  padding: 0.4rem 0.8rem;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
-  padding: 0.5rem 1rem;
+}
+
+/* ✅ 오른쪽 사이드바 전체 박스 */
+.sidebar__right {
+  width: 200px !important; // 너비 살짝 줄이기
+  float: right !important;
+  margin-left: 2rem; // 본문과의 간격
+  margin-top: 0.5rem;
+}
+
+/* ✅ 본문 전체 페이지 폭 늘리기 */
+.page {
+  max-width: 1800px !important; // 최대 너비 확장
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* ✅ 본문 콘텐츠 폭도 넓히기 */
+.page__content {
+  width: calc(100% - 240px); // 전체 - TOC 폭 - 마진
+  float: left;
 }
 
 // YSH_05.01
