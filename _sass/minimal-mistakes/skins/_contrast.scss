@@ -44,7 +44,7 @@ $base0f: #b18a3d !default;
 }
 
 .page__footer {
-  color: #fff !important; // override
+  color: #ffffff !important; // override
 }
 
 .page__footer-follow .social-icons i,
@@ -62,12 +62,12 @@ $base0f: #b18a3d !default;
 }
 
 .toc__menu li a:hover {
-  color: #000000 !important; // 마우스 올렸을 때 색
+  color: #474747 !important; // 마우스 올렸을 때 색
 }
 
 .toc__menu::before {
   background-color: #ffffff !important; // 위쪽 빨간 띠
-  color: #fff !important; // "On this page" 글자
+  color: #ffffff !important; // "On this page" 글자
 }
 
 // "On this page" 배경색 (header)
