@@ -32,6 +32,7 @@ $base0e: #ff73fd !default;
 $base0f: #b18a3d !default;
 
 .page__content {
+
   .notice,
   .notice--primary,
   .notice--info,
@@ -47,6 +48,24 @@ $base0f: #b18a3d !default;
 }
 
 .page__footer-follow .social-icons i,
-.page__footer-follow .social-icons .svg-inline--fa  {
+.page__footer-follow .social-icons .svg-inline--fa {
   color: inherit;
+}
+
+.toc__menu {
+  background-color: #111 !important; // TOC 전체 배경
+  border: 1px solid #444 !important; // 경계선
+}
+
+.toc__menu li a {
+  color: #fff !important; // 항목 링크 색
+}
+
+.toc__menu li a:hover {
+  color: #ff6c60 !important; // 마우스 올렸을 때 색
+}
+
+.toc__menu::before {
+  background-color: #b60000 !important; // 위쪽 빨간 띠
+  color: #fff !important; // "On this page" 글자
 }
