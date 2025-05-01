@@ -69,3 +69,9 @@ $base0f: #b18a3d !default;
   background-color: #535353 !important; // 위쪽 빨간 띠
   color: #fff !important; // "On this page" 글자
 }
+
+// "On this page" 배경색 (header)
+.toc__menu-header {
+  background-color: #2c2c2c !important; // 원하는 색으로 변경
+  color: white !important;
+}
