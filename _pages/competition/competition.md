@@ -5,15 +5,6 @@ permalink: /competition/
 has_children: true
 ---
 
-##  🏁Robot Racing Competition - Clothoid-R
-
-<a href="{{ site.baseurl }}/competition/robotracing/" style="text-align: center; display: inline-block;">
-  <img src="{{ site.baseurl }}/assets/images/competition/robotracing/Clothoid_black.png" alt="Robot Racing Competition" width="240" style="display: block; margin: 0 auto;">
-  <div style="font-weight: bold; margin-top: 4px;">Robot Racing Competition</div>
-  <div style="font-size: 0.5em; color: gray;">Participated as a control engineer in 2024</div>
-</a>
-
-
 ## 🏆 Awards
 
 | Year | Event | Award |
@@ -24,6 +15,14 @@ has_children: true
 | 2024 | AI Drone Contest | 🥈 2nd Place |
 
 
+
+##  🏁Robot Racing Competition - Clothoid-R
+
+<a href="{{ site.baseurl }}/competition/robotracing/" style="text-align: center; display: inline-block;">
+  <img src="{{ site.baseurl }}/assets/images/competition/robotracing/Clothoid_black.png" alt="Robot Racing Competition" width="240" style="display: block; margin: 0 auto;">
+  <div style="font-weight: bold; margin-top: 4px;">Robot Racing Competition</div>
+  <div style="font-size: 0.5em; color: gray;">Participated as a control engineer in 2024</div>
+</a>
 
 <!-- 
 🧱 구성 요소 분석
