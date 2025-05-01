@@ -58,7 +58,7 @@ $base0f: #b18a3d !default;
 }
 
 .toc__menu li a {
-  color: #dddddd !important; // 항목 링크 색
+  color: #ffffff !important; // 항목 링크 색
 }
 
 .toc__menu li a:hover {
@@ -72,8 +72,8 @@ $base0f: #b18a3d !default;
 
 // "On this page" 배경색 (header)
 .toc__menu-header {
-  background-color: #ff0000 !important; // 원하는 색으로 변경
-  color: white !important;
+  background-color: #fc0000 !important; // 원하는 색으로 변경
+  color: rgb(233, 72, 72) !important;
 }
 
 .toc__menu {
