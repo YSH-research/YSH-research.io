@@ -72,13 +72,13 @@ $base0f: #b18a3d !default;
 
 // "On this page" 배경색 (header)
 .toc__menu-header {
-  background-color: #7c7b7b !important; // 원하는 색으로 변경
+  background-color: #777777 !important; // 원하는 색으로 변경
   color: white !important;
 }
 
 .toc__menu {
   &::before {
-    background-color: #747474 !important; // 배경색
+    background-color: #751313 !important; // 배경색
     color: #fff !important; // 글자색
   }
 }
