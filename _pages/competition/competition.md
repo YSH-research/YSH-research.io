@@ -19,10 +19,11 @@ has_children: true
 ##  🏁Robot Racing Competition - Clothoid-R
 
 <a href="{{ site.baseurl }}/competition/robotracing/" style="text-align: center; display: inline-block;">
-  <img src="{{ site.baseurl }}/assets/images/competition/robotracing/Clothoid_black.png" alt="Robot Racing Competition" width="240" style="display: block; margin: 0 auto;">
-  <div style="font-weight: bold; margin-top: 4px;">Robot Racing Competition</div>
-  <div style="font-size: 0.5em; color: gray;">Participated as a control engineer in 2024</div>
+  <img src="{{ site.baseurl }}/assets/images/competition/robotracing/Clothoid_black.png" alt="Robot Racing Competition" width="240">
+  <div style="font-weight: bold; margin-top: 2px;">Robot Racing Competition</div> <!-- 이 부분 -->
+  <div style="font-size: 0.5em; color: gray; margin-top: 0.5px;">Participated as a control engineer in 2024</div>
 </a>
+
 
 <!-- 
 🧱 구성 요소 분석
