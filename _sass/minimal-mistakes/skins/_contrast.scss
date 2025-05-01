@@ -52,35 +52,46 @@ $base0f: #b18a3d !default;
   color: inherit;
 }
 
+/* ===============================
+   TOC (Table of Contents) 스타일 설정
+   =============================== */
+
+/* TOC 전체 박스 스타일 */
 .toc__menu {
-  background-color: #ffffff !important; // TOC 전체 배경
-  border: 1px solid #ffffff !important; // 경계선
+  background-color: #ffffff !important; // TOC 박스 배경색 (기본: 흰색)
+  border: 1px solid #ffffff !important; // TOC 박스 테두리 (숨김 효과)
 }
 
+/* TOC 항목 기본 텍스트 스타일 */
 .toc__menu li a {
-  color: #000000 !important; // 항목 링크 색
+  color: #000000 !important; // 항목 텍스트 색상 (검정)
+  text-decoration: none; // 밑줄 제거
 }
 
+/* TOC 항목 마우스 오버 시 스타일 */
 .toc__menu li a:hover {
-  color: #000000 !important; // 마우스 올렸을 때 색
+  color: #000000 !important; // 마우스 올렸을 때 텍스트 색 유지
+  background-color: #f0f0f0 !important; // (선택) 마우스 오버 시 배경색
 }
 
+/* TOC에서 현재 보고 있는 항목의 활성화 스타일 */
+.toc__menu li.active>a,
+.toc__menu li a.active {
+  background-color: #e6f0ff !important; // 활성 항목 배경색 (연한 파랑)
+  color: #000000 !important; // 활성 항목 텍스트 색
+}
+
+/* "On this page" 제목 상단 띠 스타일 */
 .toc__menu::before {
-  background-color: #ffffff !important; // 위쪽 빨간 띠
-  color: #ffffff !important; // "On this page" 글자
+  background-color: #ff0000 !important; // 상단 색띠 배경 (예: 빨강)
+  color: #ffffff !important; // 상단 띠 안의 글자색 (흰색)
 }
 
-// "On this page" 배경색 (header)
+/* "On this page" 제목 박스(header) 스타일 */
 .toc__menu-header {
-  background-color: #ffffff !important; // 원하는 색으로 변경
-  color: rgb(255, 255, 255) !important;
+  background-color: #ffffff !important; // 헤더 배경색 (흰색)
+  color: #000000 !important; // 헤더 글자색 (검정)
 }
 
-.toc__menu {
-  &::before {
-    background-color: #ff0000 !important; // 배경색
-    color: #fff !important; // 글자색
-  }
-}
 
 // YSH_05.01
