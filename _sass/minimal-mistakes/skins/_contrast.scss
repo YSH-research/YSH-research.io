@@ -52,6 +52,20 @@ $base0f: #b18a3d !default;
   color: inherit;
 }
 
+.page {
+  max-width: 1200px !important; // 기존보다 넓게
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* 📌 4. 이미지 설명 텍스트 작게 (클래스 활용 권장) */
+.image-caption {
+  font-size: 0.7rem;
+  color: #777;
+  margin-top: 0.2rem;
+  text-align: center;
+}
+
 /* ===============================
    TOC (Table of Contents) 스타일 설정
    =============================== */
@@ -89,9 +103,12 @@ $base0f: #b18a3d !default;
 
 /* "On this page" 제목 박스(header) 스타일 */
 .toc__menu-header {
-  background-color: #3b3b3b !important; // 헤더 배경색 (흰색)
-  color: #000000 !important; // 헤더 글자색 (검정)
+  background-color: #ffffff !important; // 흰 배경
+  color: #000000 !important; // 검정 글씨
+  font-weight: bold;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  padding: 0.5rem 1rem;
 }
-
 
 // YSH_05.01
