@@ -109,7 +109,7 @@ $base0f: #b18a3d !default;
 
 /* ✅ 오른쪽 사이드바 전체 박스 */
 .sidebar__right {
-  flex: 0 0 420px; // 고정 폭 (찌그러지지 않음)
+  flex: 0 0 280px; // 고정 폭 (찌그러지지 않음)
   position: sticky;
   top: 5rem; // 스크롤 시 고정될 높이
   align-self: flex-start;
