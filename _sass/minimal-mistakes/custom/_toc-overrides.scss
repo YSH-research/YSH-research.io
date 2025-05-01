@@ -1,0 +1,31 @@
+// overrides for TOC style
+.toc {
+  background-color: #111; // TOC 전체 배경색
+  border: 1px solid #333;
+  border-radius: 8px;
+
+  .nav__title {
+    background-color: #b60000; // 상단 제목 바
+    color: #fff;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 0.95em;
+  }
+
+  ul {
+    padding: 10px;
+  }
+
+  li {
+    margin-bottom: 6px;
+  }
+
+  a {
+    color: #ccc; // 링크 기본색
+    text-decoration: none;
+
+    &:hover {
+      color: #fff; // 마우스 올렸을 때
+    }
+  }
+}
