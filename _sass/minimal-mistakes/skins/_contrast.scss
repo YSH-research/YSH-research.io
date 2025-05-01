@@ -107,12 +107,27 @@ $base0f: #b18a3d !default;
   border-top-right-radius: 2px;
 }
 
-/* ✅ 오른쪽 사이드바 전체 박스 */
-.sidebar__right {
-  flex: 0 0 280px; // 고정 폭 (찌그러지지 않음)
-  position: sticky;
-  top: 5rem; // 스크롤 시 고정될 높이
-  align-self: flex-start;
+/* ✅ 오른쪽 TOC 전체 박스 높이 제한 + 스크롤 */
+.sidebar__right,
+.toc__menu {
+  /* 화면 높이(100vh)에서 머리글·여백(예: 6rem) 뺀 만큼만 표시 */
+  max-height: calc(100vh - 6rem);
+  overflow-y: auto;
+}
+
+/* 선택사항: 스크롤바 디자인 최소화 */
+.toc__menu {
+  scrollbar-width: thin; // Firefox
+
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  // Chrome/Edge
+  &::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 3px;
+  }
 }
 
 /* ✅ 본문 전체 페이지 폭 늘리기 */
