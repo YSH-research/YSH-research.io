@@ -83,13 +83,13 @@ $base0f: #b18a3d !default;
 
 /* "On this page" 제목 상단 띠 스타일 */
 .toc__menu::before {
-  background-color: #ff0000 !important; // 상단 색띠 배경 (예: 빨강)
-  color: #ffffff !important; // 상단 띠 안의 글자색 (흰색)
+  background-color: #414141 !important; // 상단 색띠 배경 (예: 빨강)
+  color: #000000 !important; // 상단 띠 안의 글자색 (흰색)
 }
 
 /* "On this page" 제목 박스(header) 스타일 */
 .toc__menu-header {
-  background-color: #ffffff !important; // 헤더 배경색 (흰색)
+  background-color: #3b3b3b !important; // 헤더 배경색 (흰색)
   color: #000000 !important; // 헤더 글자색 (검정)
 }
 
