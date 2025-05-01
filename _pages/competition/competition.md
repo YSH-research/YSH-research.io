@@ -12,7 +12,8 @@ has_children: true
 | 2025 | Global Robot Challenge | 🥇 1st Place |
 | 2025 | ICRA Autonomous Race | Finalist |
 | 2024 | Robot Racing - Clothoid-R | 🥇 1st Place |
-| 2024 | AI Drone Contest | 🥈 2nd Place | -->
+| 2024 | AI Drone Contest | 🥈 2nd Place | 
+-->
 
 
 
