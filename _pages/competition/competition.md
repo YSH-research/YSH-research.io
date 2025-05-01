@@ -3,6 +3,8 @@ title: "Competition"
 layout: single
 permalink: /competition/
 has_children: true
+nav: false 
+show_date: false  
 ---
 
 ## 🏆 Awards
