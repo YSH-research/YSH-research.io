@@ -100,32 +100,34 @@ $base0f: #b18a3d !default;
 .toc__menu-header {
   background-color: #ffffff !important; // 배경 흰색
   color: #000000 !important; // 글자색 검정
-  font-size: 0.8rem !important; // 글자 작게
+  font-size: 0.4rem !important; // 글자 작게
   font-weight: bold;
-  padding: 0.4rem 0.8rem;
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
+  padding: 0.2rem 0.4rem;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
 }
 
 /* ✅ 오른쪽 사이드바 전체 박스 */
 .sidebar__right {
-  width: 200px !important; // 너비 살짝 줄이기
-  float: right !important;
-  margin-left: 2rem; // 본문과의 간격
-  margin-top: 0.5rem;
+  flex: 0 0 220px; // 고정 폭 (찌그러지지 않음)
+  position: sticky;
+  top: 5rem; // 스크롤 시 고정될 높이
+  align-self: flex-start;
 }
 
 /* ✅ 본문 전체 페이지 폭 늘리기 */
 .page {
-  max-width: 1800px !important; // 최대 너비 확장
+  max-width: 1200px !important; // ← 조절된 폭 (기존 1800px → 줄임)
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0 1.5rem;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem; // 본문과 TOC 간격
 }
 
 /* ✅ 본문 콘텐츠 폭도 넓히기 */
 .page__content {
-  width: calc(100% - 240px); // 전체 - TOC 폭 - 마진
-  float: left;
+  flex: 1 1 70%; // 전체의 약 70% 차지
 }
 
 // YSH_05.01
