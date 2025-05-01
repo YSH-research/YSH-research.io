@@ -6,7 +6,7 @@ has_children: true
 ---
 
 
-## 🏁 Robot Racing Competition - Clothoid-R1
+## 🏁 Robot Racing Competition - Clothoid-R
 
 <div style="text-align: center;">
   <a href="{{ site.baseurl }}/competition/robotracing/">
