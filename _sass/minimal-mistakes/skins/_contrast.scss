@@ -54,7 +54,7 @@ $base0f: #b18a3d !default;
 
 .toc__menu {
   background-color: #ffffff !important; // TOC 전체 배경
-  border: 1px solid #ffffff !important; // 경계선
+  border: 1px solid #000000 !important; // 경계선
 }
 
 .toc__menu li a {
@@ -62,7 +62,7 @@ $base0f: #b18a3d !default;
 }
 
 .toc__menu li a:hover {
-  color: #e4e2e2 !important; // 마우스 올렸을 때 색
+  color: #000000 !important; // 마우스 올렸을 때 색
 }
 
 .toc__menu::before {
