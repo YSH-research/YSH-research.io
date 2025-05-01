@@ -7,7 +7,7 @@ has_children: true
 
 ##  🏁Robot Racing Competition - Clothoid-R
 
-<a href="/competition/robotracing/">Robot Racing</a>
+<a href="{{ site.baseurl }}/competition/robotracing/">Robot Racing</a>
 
 
 ## 🏆 Awards
