@@ -4,10 +4,6 @@ layout: single
 permalink: /competition/
 has_children: true
 ---
-
-
-
-
 ##  🏁Robot Racing Competition - Clothoid-R
 
 <a href="{{ site.baseurl }}/competition/robotracing/" style="text-align: center; display: inline-block; line-height: 1;">
