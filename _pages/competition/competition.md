@@ -1,10 +1,12 @@
 ---
 title: "Competition"
-layout: pages
+layout: single
 permalink: /competition/
 has_children: true
-show_date: false
-show_pager: false
+show_date: false      # ⛔ 날짜 없앰
+show_pager: false     # ⛔ 이전/다음 링크 없앰
+read_time: false      # ⛔ 읽는 시간 없앰 (옵션)
+comments: false       # ⛔ 댓글 없앰 (옵션)
 ---
 
 ## 🏆 Awards
