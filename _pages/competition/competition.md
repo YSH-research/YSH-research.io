@@ -1,6 +1,6 @@
 ---
 title: "Competition"
-layout: single
+layout: archive
 permalink: /competition/
 has_children: true
 show_date: false
