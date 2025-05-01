@@ -62,23 +62,23 @@ $base0f: #b18a3d !default;
 }
 
 .toc__menu li a:hover {
-  color: #3b3939 !important; // 마우스 올렸을 때 색
+  color: #e4e2e2 !important; // 마우스 올렸을 때 색
 }
 
 .toc__menu::before {
-  background-color: #662525 !important; // 위쪽 빨간 띠
+  background-color: #ff0000 !important; // 위쪽 빨간 띠
   color: #fff !important; // "On this page" 글자
 }
 
 // "On this page" 배경색 (header)
 .toc__menu-header {
-  background-color: #8b5252 !important; // 원하는 색으로 변경
+  background-color: #ff0000 !important; // 원하는 색으로 변경
   color: white !important;
 }
 
 .toc__menu {
   &::before {
-    background-color: #751313 !important; // 배경색
+    background-color: #ff0000 !important; // 배경색
     color: #fff !important; // 글자색
   }
 }
