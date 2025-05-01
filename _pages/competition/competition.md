@@ -27,7 +27,6 @@ has_children: true
   <div style="font-weight: bold; margin: 0px 0 0 0; line-height: 1;">Robot Racing Competition</div>
   <div style="font-size: 0.6em; color: gray; margin: 0; line-height: 1;">Participated as a control engineer in 2024</div>
 
-.
 
 
 <!-- 
