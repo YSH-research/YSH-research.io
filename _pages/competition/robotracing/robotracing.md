@@ -8,17 +8,24 @@ parent: "Competition"
 
 ## 🛠️ Team Logs
 
-<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; text-align: center;">
 
-<a href="{{ site.baseurl }}/competition/robotracing/diary/" style="text-align: center;">
-  <img src="{{ site.baseurl }}/assets/images/Diary.webp" alt="Robot Racing Diary" width="200">
-  <br>Robot Racing – Diary 2025 ~
-</a>
+  <div>
+    <a href="{{ site.baseurl }}/competition/robotracing/diary/">
+      <img src="{{ site.baseurl }}/assets/images/Diary.webp" alt="Robot Racing Diary" style="width: 200px; height: 200px; object-fit: cover;">
+    </a>
+    <div style="margin-top: 4px; font-size: 0.85em;">Robot Racing – Diary 2025 ~</div>
+  </div>
 
-<a href="{{ site.baseurl }}/competition/robotracing/technical/" style="text-align: center;">
-  <img src="{{ site.baseurl }}/assets/images/Gear.jpeg" alt="Robot Racing Technical Report" width="200">
-  <br>Robot Racing – Technical Report
-</a>
+  <div>
+    <a href="{{ site.baseurl }}/competition/robotracing/technical/">
+      <img src="{{ site.baseurl }}/assets/images/Gear.jpeg" alt="Robot Racing Technical Report" style="width: 200px; height: 200px; object-fit: cover;">
+    </a>
+    <div style="margin-top: 4px; font-size: 0.85em;">Robot Racing – Technical Report</div>
+  </div>
+
+</div>
+
 
 
 ## 🏁 Competition Highlights
