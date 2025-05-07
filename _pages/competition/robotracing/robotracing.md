@@ -19,7 +19,7 @@ parent: "Competition"
 
   <div>
     <a href="{{ site.baseurl }}/competition/robotracing/technical/">
-      <img src="{{ site.baseurl }}/assets/images/Gear.jpeg" alt="Robot Racing Technical Report" style="width: 200px; height: 200px; object-fit: cover;">
+      <img src="{{ site.baseurl }}/assets/images/Gear_White.png" alt="Robot Racing Technical Report" style="width: 200px; height: 200px; object-fit: cover;">
     </a>
     <div style="margin-top: 4px; font-size: 0.85em;">Robot Racing – Technical Report</div>
   </div>
