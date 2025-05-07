@@ -6,46 +6,36 @@ has_children: true
 parent: "Competition"
 ---
 
+## 🛠️ Team Logs
+<div style="text-align: center;">
+  <a href="{{ site.baseurl }}/competition/robotracing/">
+    <img src="{{ site.baseurl }}/assets/images/competition/robotracing/Clothoid_black.png" 
+         alt="Robot Racing" 
+         style="width: 240px; height: 240px; object-fit: cover; display: block; margin: 0 auto;">
+  </a>
+  <div style="font-weight: bold; margin: 0px 0 0 0; line-height: 1;">Robot Racing Competition</div>
+  <div style="font-size: 0.6em; color: gray; margin: 0; line-height: 1;">Participated as a Team Leader & Control Engineer</div>
+</div>
 
-## Team Activity
+<!-- Competition Record 블록 -->
+## 🏁 Competition Highlights
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
 
-<a href="{{ site.baseurl }}/competition/robotracing/diary/" style="text-align: center;">
-  <img src="{{ site.baseurl }}/assets/images/Diary.webp" alt="Robot Racing Diary" width="200">
-  <br>Robot Racing – Diary 2025 ~
-</a>
+  <a href="{{ site.baseurl }}/competition/robotracing/robotracing-2023-july/">
+    <img src="{{ site.baseurl }}/assets/images/competition/robotracing/2023-2.jpeg" alt="Robot Racing 2023 July" style="width: 200px; height: 200px; object-fit: cover;">
+  </a>
 
-<a href="{{ site.baseurl }}/competition/robotracing/technical/" style="text-align: center;">
-  <img src="{{ site.baseurl }}/assets/images/Gear.jpeg" alt="Robot Racing Technical Report" width="200">
-  <br>Robot Racing – Technical Report
-</a>
+  <a href="{{ site.baseurl }}/competition/robotracing/robotracing-2024-april/">
+    <img src="{{ site.baseurl }}/assets/images/competition/robotracing/2024-1.jpeg" alt="Robot Racing 2024 April" style="width: 200px; height: 200px; object-fit: cover;">
+  </a>
 
+  <a href="{{ site.baseurl }}/competition/robotracing/robotracing-2024-aug/">
+    <img src="{{ site.baseurl }}/assets/images/competition/robotracing/2024-2.jpeg" alt="Robot Racing 2024 August" style="width: 200px; height: 200px; object-fit: cover;">
+  </a>
 
-## Competition Record
-<!-- <a href="{{ site.baseurl }}/competition/robotracing/robotracing-2025-may/" style="text-align: center;">
-  <img src="{{ site.baseurl }}/assets/images/competition/robotracing/main.jpg" alt="Robot Racing 2025 May" width="200">
-  <br>2025 May – Robot Racing
-</a> -->
-<a href="{{ site.baseurl }}/competition/robotracing/robotracing-2023-july/" style="text-align: center;">
-  <img src="{{ site.baseurl }}/assets/images/competition/robotracing/2023-2.jpeg" alt="Robot Racing 2023 July" width="200">
-  <br>2023 July – Robot Racing
-</a>
-
-<a href="{{ site.baseurl }}/competition/robotracing/robotracing-2024-april/" style="text-align: center;">
-  <img src="{{ site.baseurl }}/assets/images/competition/robotracing/2024-1.jpeg" alt="Robot Racing 2024 April" width="200">
-  <br>2024 April – Robot Racing
-</a>
-
-<a href="{{ site.baseurl }}/competition/robotracing/robotracing-2024-aug/" style="text-align: center;">
-  <img src="{{ site.baseurl }}/assets/images/competition/robotracing/2024-2.jpeg" alt="Robot Racing 2024 August" width="200">
-  <br>2024 Aug – Robot Racing
-</a>
-
-
-<a href="{{ site.baseurl }}/competition/robotracing/robotracing-2024-nov/" style="text-align: center;">
-  <img src="{{ site.baseurl }}/assets/images/competition/robotracing/2024-3.jpeg" alt="Robot Racing 2024 November" width="200">
-  <br>2024 Nov – Robot Racing
-</a>
+  <a href="{{ site.baseurl }}/competition/robotracing/robotracing-2024-nov/">
+    <img src="{{ site.baseurl }}/assets/images/competition/robotracing/2024-3.jpeg" alt="Robot Racing 2024 November" style="width: 200px; height: 200px; object-fit: cover;">
+  </a>
 
 </div>
