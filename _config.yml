@@ -117,7 +117,20 @@ author:
   name: "Soo-Han Yoon"
   avatar: "assets/images/CBNU.png"
   # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "I am an **amazing** person."
+  bio: "## 👋 About Me
+
+    I am a student researcher passionate about **Robotics**, **Data Science**, and **Artificial Intelligence**, with a current research focus on **Autonomous Driving**.
+
+    My academic journey has provided me with a strong foundation in both classical and modern approaches to vehicle control and perception:
+
+    * **Undergraduate Focus:** My foundational studies centered on **rule-based control** and **decision-making systems**.
+    * **Master's Focus:** I am now specializing in advanced, data-driven techniques, primarily **Reinforcement Learning (RL)** and **end-to-end (E2E) diffusion models**.
+
+    ### 💡 My Research Philosophy
+
+    My core research philosophy is centered on bridging the gap between these two paradigms. We are in a transitional period where neither purely rule-based systems nor purely data-driven models are sufficient for all scenarios.
+
+    I am dedicated to exploring hybrid approaches that **synergize the reliability and interpretability of rule-based logic with the adaptability and powerful generalization of modern AI**. My goal is to develop robust, safe, and efficient autonomous systems that leverage the best of both worlds."
   location: "Somewhere"
   email:
   links:
