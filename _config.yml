@@ -324,6 +324,18 @@ collections:
   pages:
     output: true
     permalink: /:path/
+  research:
+    output: true
+    permalink: /research/:path/
+  teaching:
+    output: true
+    permalink: /teaching/:path/
+  projects:
+    output: true
+    permalink: /projects/:path/
+  publications:
+    output: true
+    permalink: /publications/:path/
 
 defaults:
   - scope:
