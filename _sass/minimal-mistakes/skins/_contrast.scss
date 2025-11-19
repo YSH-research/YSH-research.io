@@ -53,7 +53,7 @@ $base0f: #b18a3d !default;
 }
 
 
-/* 📌 4. 이미지 설명 텍스트 작게 (클래스 활용 권장) */
+/* 📌 4. Smaller image caption text (recommended to use a class) */
 .image-caption {
   font-size: 0.7rem;
   color: #777;
@@ -62,60 +62,60 @@ $base0f: #b18a3d !default;
 }
 
 /* ===============================
-   TOC (Table of Contents) 스타일 설정
+   TOC (Table of Contents) style settings
    =============================== */
 
-/* TOC 전체 박스 스타일 */
+/* TOC container box style */
 .toc__menu {
-  background-color: #ffffff !important; // TOC 박스 배경색 (기본: 흰색)
-  border: 1px solid #ffffff !important; // TOC 박스 테두리 (숨김 효과)
+  background-color: #ffffff !important; // TOC box background color (default: white)
+  border: 1px solid #ffffff !important; // TOC box border (hidden effect)
 }
 
-/* TOC 항목 기본 텍스트 스타일 */
+/* TOC item default text style */
 .toc__menu li a {
-  color: #000000 !important; // 항목 텍스트 색상 (검정)
-  text-decoration: none; // 밑줄 제거
+  color: #000000 !important; // Item text color (black)
+  text-decoration: none; // Remove underline
 }
 
-/* TOC 항목 마우스 오버 시 스타일 */
+/* TOC item mouse hover style */
 .toc__menu li a:hover {
-  color: #000000 !important; // 마우스 올렸을 때 텍스트 색 유지
-  background-color: #f0f0f0 !important; // (선택) 마우스 오버 시 배경색
+  color: #000000 !important; // Keep text color on hover
+  background-color: #f0f0f0 !important; // (Optional) Background color on hover
 }
 
-/* TOC에서 현재 보고 있는 항목의 활성화 스타일 */
+/* Style for the currently active item in the TOC */
 .toc__menu li.active>a,
 .toc__menu li a.active {
-  background-color: #ffffff !important; // 활성 항목 배경색 (연한 파랑)
-  color: #000000 !important; // 활성 항목 텍스트 색
+  background-color: #ffffff !important; // Active item background color (light blue)
+  color: #000000 !important; // Active item text color
 }
 
-/* "On this page" 제목 상단 띠 스타일 */
+/* "On this page" title top bar style */
 .toc__menu::before {
-  background-color: #414141 !important; // 상단 색띠 배경 (예: 빨강)
-  color: #000000 !important; // 상단 띠 안의 글자색 (흰색)
+  background-color: #414141 !important; // Top color bar background (e.g., red)
+  color: #000000 !important; // Text color inside the top bar (white)
 }
 
-/* "On this page" 제목 박스(header) 스타일 */
+/* "On this page" title box (header) style */
 .toc__menu-header {
-  background-color: #ffffff !important; // 배경 흰색
-  color: #000000 !important; // 글자색 검정
-  font-size: 0.4rem !important; // 글자 작게
+  background-color: #ffffff !important; // White background
+  color: #000000 !important; // Black text color
+  font-size: 0.4rem !important; // Smaller font size
   font-weight: bold;
   padding: 0.2rem 0.4rem;
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
 }
 
-/* ✅ 오른쪽 TOC 전체 박스 높이 제한 + 스크롤 */
+/* ✅ Limit the height of the right TOC container + scroll */
 .sidebar__right,
 .toc__menu {
-  /* 화면 높이(100vh)에서 머리글·여백(예: 6rem) 뺀 만큼만 표시 */
+  /* Display only as much as the screen height (100vh) minus header/margin (e.g., 6rem) */
   max-height: calc(100vh - 6rem);
   overflow-y: auto;
 }
 
-/* 선택사항: 스크롤바 디자인 최소화 */
+/* Optional: Minimize scrollbar design */
 .toc__menu {
   scrollbar-width: thin; // Firefox
 
@@ -130,19 +130,19 @@ $base0f: #b18a3d !default;
   }
 }
 
-/* ✅ 본문 전체 페이지 폭 늘리기 */
+/* ✅ Increase the width of the entire body page */
 .page {
-  max-width: 1600px !important; // ← 조절된 폭 (기존 1800px → 줄임)
+  max-width: 1600px !important; // ← Adjusted width (reduced from original 1800px)
   margin: 0 auto;
   padding: 0 1.5rem;
   display: flex;
   flex-direction: row;
-  gap: 2rem; // 본문과 TOC 간격
+  gap: 2rem; // Gap between main content and TOC
 }
 
-/* ✅ 본문 콘텐츠 폭도 넓히기 */
+/* ✅ Also widen the main content width */
 .page__content {
-  flex: 1 1 80%; // 전체의 약 70% 차지
+  flex: 1 1 80%; // Occupy about 70% of the total width
 }
 
 // YSH_05.01
