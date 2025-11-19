@@ -117,9 +117,8 @@ author:
   name: "Su-Han Yoon"
   avatar: "assets/images/CBNU.png"
   # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "
-
-    My research focuses on advanced **Behavior Planning** for autonomous vehicles using **Reinforcement Learning** and **E2E diffusion models**.
+  bio:
+    " My research focuses on advanced **Behavior Planning** for autonomous vehicles using **Reinforcement Learning** and **E2E diffusion models**.
 
     I am dedicated to developing hybrid approaches that combine the interpretability of **rule-based control** with the generalization power of **data-driven AI**."
   location: "Somewhere"
