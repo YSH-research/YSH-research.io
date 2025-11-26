@@ -25,3 +25,58 @@
 .page__content {
     max-width: none !important;
 }
+
+/* Custom: Reduce font sizes and UI elements */
+html {
+    font-size: 14px !important;
+
+    @include breakpoint($medium) {
+        font-size: 15px !important;
+    }
+
+    @include breakpoint($large) {
+        font-size: 16px !important;
+    }
+
+    @include breakpoint($x-large) {
+        font-size: 16px !important;
+    }
+}
+
+.page__content {
+    font-size: 0.9em !important;
+
+    h1 {
+        font-size: 1.8em !important;
+    }
+
+    h2 {
+        font-size: 1.5em !important;
+    }
+
+    h3 {
+        font-size: 1.3em !important;
+    }
+
+    h4 {
+        font-size: 1.1em !important;
+    }
+}
+
+.masthead {
+    font-size: 0.9em !important;
+}
+
+.sidebar {
+    font-size: 0.85em !important;
+}
+
+.author__avatar {
+    img {
+        max-width: 100px !important;
+    }
+}
+
+.archive__item-title {
+    font-size: 1.1em !important;
+}
