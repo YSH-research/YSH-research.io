@@ -4,3 +4,24 @@
 @import "minimal-mistakes"; // main partials
 
 @import "minimal-mistakes/custom/toc-overrides";
+
+/* Custom: Increase main content width */
+.page {
+    @include breakpoint($large) {
+        width: calc(100% - 250px);
+        padding-right: 250px;
+    }
+
+    @include breakpoint($x-large) {
+        width: calc(100% - 300px);
+        padding-right: 300px;
+    }
+}
+
+.page__inner-wrap {
+    max-width: 100% !important;
+}
+
+.page__content {
+    max-width: none !important;
+}
