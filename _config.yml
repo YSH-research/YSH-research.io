@@ -117,25 +117,12 @@ author:
   name: "Su-Han Yoon"
   avatar: "assets/images/CBNU.png"
   # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "## 👋 About Me
-
-    I am a student researcher passionate about **Robotics**, **Data Science**, and **Artificial Intelligence**, with a current research focus on **Autonomous Driving**.
-
-    My academic journey has provided me with a strong foundation in both classical and modern approaches to vehicle control and perception:
-
-    * **Undergraduate Focus:** My foundational studies centered on **rule-based control** and **decision-making systems**.
-    * **Master's Focus:** I am now specializing in advanced, data-driven techniques, primarily **Reinforcement Learning (RL)** and **end-to-end (E2E) diffusion models**.
-
-    ### 💡 My Research Philosophy
-
-    My core research philosophy is centered on bridging the gap between these two paradigms. We are in a transitional period where neither purely rule-based systems nor purely data-driven models are sufficient for all scenarios.
+  bio:
+    " My research focuses on advanced **Behavior Planning** for autonomous vehicles using **Reinforcement Learning** and **E2E diffusion models**.
 
     I am dedicated to exploring hybrid approaches that **synergize the reliability and interpretability of rule-based logic with the adaptability and powerful generalization of modern AI**. My goal is to develop robust, safe, and efficient autonomous systems that leverage the best of both worlds."
-  location: "Rm. 842, Bldg.E9(Industry-Academic Cooperation Bldg), Chungbuk National University,Korea"
-  email: "  Research Email : yshgit@gmail. -contact this mail \
-    School Email : soohan98@chungbuk.ac.kr \
-    Personal Email : soohan9805@chungbuk.ac.kr
-    "
+  location: "Somewhere"
+  email:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -336,6 +323,18 @@ collections:
   pages:
     output: true
     permalink: /:path/
+  research:
+    output: true
+    permalink: /research/:path/
+  teaching:
+    output: true
+    permalink: /teaching/:path/
+  projects:
+    output: true
+    permalink: /projects/:path/
+  publications:
+    output: true
+    permalink: /publications/:path/
 
 defaults:
   - scope:

@@ -1,4 +1,13 @@
 main:
+  - title: "Research"
+    url: /research/
+  - title: "Teaching"
+    url: /teaching/
+  - title: "Projects"
+    url: /projects/
+  - title: "Publications"
+    url: /publications/
+
   - title: "Competition"
     url: /competition/
     children:
