@@ -28,55 +28,77 @@
 
 /* Custom: Reduce font sizes and UI elements */
 html {
-    font-size: 14px !important;
+    font-size: 12px !important;
+}
 
-    @include breakpoint($medium) {
-        font-size: 15px !important;
-    }
-
-    @include breakpoint($large) {
-        font-size: 16px !important;
-    }
-
-    @include breakpoint($x-large) {
-        font-size: 16px !important;
-    }
+body {
+    font-size: 0.85rem !important;
 }
 
 .page__content {
-    font-size: 0.9em !important;
-
-    h1 {
-        font-size: 1.8em !important;
-    }
-
-    h2 {
-        font-size: 1.5em !important;
-    }
-
-    h3 {
-        font-size: 1.3em !important;
-    }
-
-    h4 {
-        font-size: 1.1em !important;
-    }
+    font-size: 0.85rem !important;
+    line-height: 1.5 !important;
 }
 
-.masthead {
-    font-size: 0.9em !important;
+.page__content h1 {
+    font-size: 1.6rem !important;
+    margin-top: 1.5rem !important;
+    margin-bottom: 1rem !important;
+}
+
+.page__content h2 {
+    font-size: 1.3rem !important;
+    margin-top: 1.2rem !important;
+    margin-bottom: 0.8rem !important;
+}
+
+.page__content h3 {
+    font-size: 1.1rem !important;
+}
+
+.page__content h4 {
+    font-size: 1rem !important;
+}
+
+.page__content p {
+    font-size: 0.85rem !important;
+    margin-bottom: 0.8rem !important;
+}
+
+.masthead__inner-wrap {
+    padding: 0.8em 1em !important;
+}
+
+.masthead__menu-item {
+    font-size: 0.85rem !important;
+}
+
+.site-title {
+    font-size: 1rem !important;
 }
 
 .sidebar {
-    font-size: 0.85em !important;
+    font-size: 0.75rem !important;
 }
 
-.author__avatar {
-    img {
-        max-width: 100px !important;
-    }
+.sidebar .author__name {
+    font-size: 1rem !important;
+}
+
+.author__avatar img {
+    max-width: 90px !important;
+    height: auto !important;
+}
+
+.author__bio {
+    font-size: 0.75rem !important;
+    line-height: 1.4 !important;
 }
 
 .archive__item-title {
-    font-size: 1.1em !important;
+    font-size: 1rem !important;
+}
+
+.archive__item-excerpt {
+    font-size: 0.8rem !important;
 }
